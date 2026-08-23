@@ -1,0 +1,6 @@
+{
+  "name": "OneClick AI Post",
+  "description": "Nền tảng quản lý và đăng tin đa nền tảng tự động bằng AI (Facebook, TikTok, YouTube, Zalo, Instagram, Web)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
