@@ -917,8 +917,7 @@ fun PlatformEditorCard(
             placeholder = { Text("Thêm #hashtag...", fontSize = 11.sp) },
             modifier = Modifier.weight(1f),
             singleLine = true,
-            shape = RoundedCornerShape(10.dp),
-            contentPadding = PaddingValues(horizontal = 10.dp, vertical = 6.dp)
+            shape = RoundedCornerShape(10.dp)
           )
           Button(
             onClick = {
