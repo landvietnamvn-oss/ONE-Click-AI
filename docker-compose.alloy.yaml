@@ -1,0 +1,14 @@
+services:
+  android:
+    image: eclipse-temurin:21-jdk
+    working_dir: /workspace
+    network_mode: host
+    environment:
+      PORT: "3000"
+      IS_ALLOY: ${IS_ALLOY:-false}
+    volumes:
+      - .:/workspace
+      - android-cache:/cache
+    command: bash -lc "/workspace/.alloy/android-preview.sh"
+volumes:
+  android-cache:
